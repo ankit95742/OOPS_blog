@@ -68,6 +68,9 @@ The **Inheritance** is process of obtaining the data members and methods from on
 
 Inheritance represents the IS-A relationship which is also known as a parent-child relationship. Its use for code reusability and for method overriding.
 
+Super Class: The class whose features are inherited is known as a superclass (or a base class or a parent class).
+Sub Class: The class that inherits the other class is known as a subclass(or a derived class, extended class, or child class). The subclass can add its own fields and methods in addition to the superclass fields and methods.
+
 ```
 class Subclass-name extends Superclass-name  
 {  
@@ -77,7 +80,28 @@ class Subclass-name extends Superclass-name
 Type of Inheritance in Java
 1. Single Inheritance
 2. Multilevel Inheritance
-3. Hierach
+3. Hierarchical Inheritance
+4. Multiple Inheritance(Theogh Interface)
+
+![Image](https://static.javatpoint.com/images/core/typesofinheritance.jpg)
+
+## 6. Polymorphism
+
+**Polymorphism** is the ability of an object to take on many forms. The most comman use of polymorphism is OOPS occurs when a parent class reference is used to refer to a child class object. The process of representing one form in multiple form is known as polymorphism.
+
+for exmaple suppose if you are in a classroom that time you behave like a student, when you are in the market at that time you behave like a customer, Here one person present in different-different behaviors.
+
+Types of Polymorphism in Java
+
+1. Compile time polymorphism or method overloading
+
+If the class contains two or more methods having the same name and different arguments then it is method overloading.
+
+2. Runtime polymorphism or method overriding
+
+Runtime polymorphism is a process in which a call to an overridden method is resolved at runtime rather than compile-time.
+
+![Image](https://csharpcorner-mindcrackerinc.netdna-ssl.com/article/method-overloading-and-method-overriding/Images/Difference.png)
 
  
  
